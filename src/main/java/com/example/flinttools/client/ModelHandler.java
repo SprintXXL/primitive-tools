@@ -15,10 +15,35 @@ public class ModelHandler {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
+
         ModelLoader.setCustomModelResourceLocation(
                 ModItems.FLINT_KNIFE,
                 0,
                 new ModelResourceLocation(ModItems.FLINT_KNIFE.getRegistryName(), "inventory")
+        );
+
+        ModelLoader.setCustomModelResourceLocation(
+                ModItems.FLINT_PICKAXE,
+                0,
+                new ModelResourceLocation(ModItems.FLINT_PICKAXE.getRegistryName(), "inventory")
+        );
+
+        ModelLoader.setCustomModelResourceLocation(
+                ModItems.FLINT_SPADE,
+                0,
+                new ModelResourceLocation(ModItems.FLINT_SPADE.getRegistryName(), "inventory")
+        );
+
+        ModelLoader.setCustomModelResourceLocation(
+                ModItems.FLINT_HOE,
+                0,
+                new ModelResourceLocation(ModItems.FLINT_HOE.getRegistryName(), "inventory")
+        );
+
+        ModelLoader.setCustomModelResourceLocation(
+                ModItems.FLINT_HATCHET,
+                0,
+                new ModelResourceLocation(ModItems.FLINT_HATCHET.getRegistryName(), "inventory")
         );
     }
 }
