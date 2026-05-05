@@ -7,7 +7,7 @@ import static com.example.flinttools.FlintTools.MODID;
 
 public class ItemFlintHatchet extends ItemAxe {
     public ItemFlintHatchet(ToolMaterial material) {
-        super(material, 5, -3);
+        super(material, 4, -3);
 
         setRegistryName(MODID, "flint_hatchet");
         setUnlocalizedName(MODID + ".flint_hatchet");

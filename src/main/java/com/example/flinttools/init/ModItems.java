@@ -14,10 +14,10 @@ public class ModItems {
             EnumHelper.addToolMaterial(
                     "FLINT",
                     0,
-                    64,
-                    3,
-                    5,
-                    3
+                    63,
+                    1.6F,
+                    1,
+                    0
             );
 
     public static final Item FLINT_KNIFE = new ItemFlintKnife(FLINT);
