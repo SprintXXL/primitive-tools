@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "flinttools:items/flint_pickaxe"
+    "layer0": "primitivetools:items/flint_hatchet"
   }
 }

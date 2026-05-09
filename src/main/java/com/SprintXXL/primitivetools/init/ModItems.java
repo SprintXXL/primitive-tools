@@ -1,6 +1,6 @@
-package com.example.flinttools.init;
+package com.SprintXXL.primitivetools.init;
 
-import com.example.flinttools.items.*;
+import com.SprintXXL.primitivetools.items.*;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;

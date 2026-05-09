@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "FFF",
-    " S ",
-    " S "
+    "FF",
+    "SF",
+    "S "
   ],
   "key": {
     "F": {
@@ -14,6 +14,6 @@
     }
   },
   "result": {
-    "item": "flinttools:flint_pickaxe"
+    "item": "primitivetools:flint_hatchet"
   }
 }

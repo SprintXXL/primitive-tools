@@ -1,6 +1,6 @@
-package com.example.flinttools.client;
+package com.SprintXXL.primitivetools.client;
 
-import com.example.flinttools.init.ModItems;
+import com.SprintXXL.primitivetools.init.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;

@@ -1,4 +1,4 @@
-package com.example.flinttools.items;
+package com.SprintXXL.primitivetools.items;
 
 import com.google.common.collect.Multimap;
 import net.minecraft.creativetab.CreativeTabs;
@@ -7,7 +7,7 @@ import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemSword;
 
-import static com.example.flinttools.FlintTools.MODID;
+import static com.SprintXXL.primitivetools.PrimitiveTools.MODID;
 
 public class ItemFlintKnife extends ItemSword {
     public ItemFlintKnife(ToolMaterial material) {

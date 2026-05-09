@@ -2,6 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "F",
+    "S",
     "S"
   ],
   "key": {
@@ -13,6 +14,6 @@
     }
   },
   "result": {
-    "item": "flinttools:flint_knife"
+    "item": "primitivetools:flint_spade"
   }
 }

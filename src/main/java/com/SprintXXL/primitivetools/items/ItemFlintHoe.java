@@ -1,9 +1,9 @@
-package com.example.flinttools.items;
+package com.SprintXXL.primitivetools.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemHoe;
 
-import static com.example.flinttools.FlintTools.MODID;
+import static com.SprintXXL.primitivetools.PrimitiveTools.MODID;
 
 public class ItemFlintHoe extends ItemHoe {
     public ItemFlintHoe(ToolMaterial material) {
