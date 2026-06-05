@@ -4,25 +4,22 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import org.apache.logging.log4j.Logger;
 
-@Mod(modid = PrimitiveTools.MODID, name = PrimitiveTools.NAME, version = PrimitiveTools.VERSION)
-public class PrimitiveTools
-{
-    public static final String MODID = "primitivetools";
-    public static final String NAME = "Primitive Tools";
-    public static final String VERSION = "0.4.0";
+import static com.SprintXXL.primitivetools.Reference.*;
 
-    private static Logger logger;
+@Mod(
+        modid = MODID,
+        name = NAME,
+        version = VERSION)
+public class PrimitiveTools {
 
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
-        logger = event.getModLog();
+    public void preInit(FMLPreInitializationEvent event) {
+
     }
 
     @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
+    public void init(FMLInitializationEvent event) {
+
     }
 }

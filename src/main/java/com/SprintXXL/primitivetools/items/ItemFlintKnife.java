@@ -7,14 +7,14 @@ import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemSword;
 
-import static com.SprintXXL.primitivetools.PrimitiveTools.MODID;
+import static com.SprintXXL.primitivetools.Reference.MODID;
 
 public class ItemFlintKnife extends ItemSword {
     public ItemFlintKnife(ToolMaterial material) {
         super(material);
 
         setRegistryName(MODID, "flint_knife");
-        setUnlocalizedName(MODID + ".flint_knife");
+        setTranslationKey(MODID + ".flint_knife");
         setCreativeTab(CreativeTabs.COMBAT);
     }
 
